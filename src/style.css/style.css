@@ -1,0 +1,52 @@
+
+body{
+    background-image: url(../imagens/kratos.jpg);
+    background-size: cover;
+}
+
+h2, p{
+    background-color: rgba(168, 123, 123, 0.7);
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 5px;
+    border:3px solid white;
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #326585;
+    padding: 10px;
+    gap: 30px;
+    border-radius: 15px;
+}
+
+.logo{
+    width: 90px;
+    border-radius: 50px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.secao{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.secao.imagens{
+    width: 720px;
+    border-radius: 10px;
+    box-shadow:#326585 30px;
+    
+}
+.botao{
+    font-size: 30px;
+    border: 5px solid black;
+    border-radius: 0px 20px 0px 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
